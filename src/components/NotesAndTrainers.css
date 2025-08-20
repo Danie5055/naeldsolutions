@@ -1,0 +1,39 @@
+.notes-page {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.notes-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #004a99;
+}
+
+.notes-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notes-table th,
+.notes-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.notes-table th {
+  background-color: #004a99;
+  color: white;
+}
+
+.notes-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.notes-table tr:hover {
+  background-color: #eef;
+}

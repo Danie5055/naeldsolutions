@@ -1,0 +1,97 @@
+/* src/components/Header.css */
+
+.header {
+  position: fixed;              /* Always visible */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;                /* Stay on top */
+  background-color: #004a99;
+  padding: 15px 30px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;       /* Stack logo and nav on small screens */
+  align-items: center;
+  gap: 12px;
+  overflow-x: visible;          /* Ensure nav isn't clipped */
+}
+
+/* On larger screens, place logo and nav side-by-side */
+@media (min-width: 768px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: visible;        /* Ensure no horizontal clipping */
+  }
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.logo {
+  height: 45px;
+  width: 45px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Nav container styles */
+.nav {
+  display: flex;
+  flex-wrap: wrap;              /* Allow wrapping if needed */
+  justify-content: center;
+  gap: 16px;
+  width: 100%;                  /* Fill available width */
+  text-align: center;
+}
+
+/* For larger screens: avoid wrapping and allow scroll if needed */
+@media (min-width: 768px) {
+  .nav {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+    justify-content: flex-end;
+    padding-right: 20px;        /* Added padding so last item fully visible */
+  }
+}
+
+.nav a,
+.notes-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.nav a:hover,
+.notes-link:hover {
+  color: #f0c419;
+}
+
+.nav .active {
+  border-bottom: 2px solid yellow;
+  color: #f0c419;
+}
+
+/* Extra padding for fixed header */
+.notes-page {
+  padding-top: 130px;
+}

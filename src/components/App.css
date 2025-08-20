@@ -1,0 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.notes-page {
+  padding-top: 100px; /* to prevent content from being hidden under fixed header */
+}

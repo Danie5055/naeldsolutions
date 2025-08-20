@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.notes-page {
+  padding-top: 100px; /* to prevent content from being hidden under fixed header */
+}
