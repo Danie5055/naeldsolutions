@@ -17,7 +17,7 @@ const notesData = [
 const trainersData = [
   { id: 101, name: 'Daniel D.', description: 'A0 in Information Technology with 3 years of experience as Trainer' },
   { id: 102, name: 'Eric N.', description: 'Software Development Senior Trainer with 3 years of experience' },
-  { id: 103, name: 'Peter ', description: 'Super talented trainer with A1 in Mathematics' },
+  { id: 103, name: 'Peter ', description: 'Exceptionally talented Mathematics Trainer with an Advanced Diploma (A1)' },
 ];
 
 // Trainings Data
