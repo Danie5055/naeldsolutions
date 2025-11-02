@@ -4,12 +4,12 @@ import './NotesAndTrainers.css';
 
 // Notes Data
 const notesData = [
-  { id: 1, subject: 'DESIGN UI-UX', level: 'Level 3', price: '400 Rwf' },
-  { id: 2, subject: 'QUALITY ASSURANCE', level: 'Level 3', price: '300 Rwf' },
-  { id: 3, subject: 'FRONTEND DEVELOPMENT USING REACT JS', level: 'Level 4', price: '700 Rwf' },
-  { id: 4, subject: 'MOBILE APPLICATION DEVELOPMENT USING FLUTTER', level: 'Level 5', price: '900 Rwf' },
-  { id: 5, subject: 'INTRO TO COMPUTER NETWORKS', level: 'University', price: '700 Rwf' },
-  { id: 6, subject: 'DEVELOP DATABASE ', level: 'Level 4', price: '400 Rwf' },
+  { id: 1, subject: 'DESIGN UI-UX', level: 'Level 3', price: '-' },
+  { id: 2, subject: 'QUALITY ASSURANCE', level: 'Level 3', price: '-' },
+  { id: 3, subject: 'FRONTEND DEVELOPMENT USING REACT JS', level: 'Level 4', price: '-' },
+  { id: 4, subject: 'MOBILE APPLICATION DEVELOPMENT USING FLUTTER', level: 'Level 5', price: '-' },
+  { id: 5, subject: 'INTRO TO COMPUTER NETWORKS', level: 'University', price: '-' },
+  { id: 6, subject: 'DEVELOP DATABASE ', level: 'Level 4', price: '-' },
   { id: 7, subject: 'COMPUTER LITERACY ', level: 'Level 4', price: 'Free' },
 ];
 
@@ -22,13 +22,13 @@ const trainersData = [
 
 // Trainings Data
 const trainingsData = [
-  { id: 201, subject: 'DESIGN UI-UX', level: 'Level 3', trainerId: 101, price: '2000 Rwf per Hour' },
-  { id: 202, subject: 'QUALITY ASSURANCE', level: 'Level 3', trainerId: 101, price: '2000 Rwf per Hour' },
-  { id: 203, subject: 'FRONTEND DEVELOPMENT USING REACT JS', level: 'Level 4', trainerId: 102, price: '$3 Rwf per Hour' },
-  { id: 204, subject: 'MOBILE APPLICATION DEVELOPMENT USING FLUTTER', level: 'Level 5', trainerId: 102, price: '$5 Rwf per Hour' },
-  { id: 205, subject: 'INTRO TO COMPUTER NETWORKS', level: 'University', trainerId: 101, price: '2500 Rwf per Hour' },
-  { id: 206, subject: 'MATHEMATICS', level: 'Level 3', trainerId: 103, price: '3000 Rwf per Hour'},
-  { id: 207, subject: 'DEVELOP DATABASE ', level: 'Level 4', trainerId: 101, price: '3000 Rwf per Hour' },
+  { id: 201, subject: 'DESIGN UI-UX', level: 'Level 3', trainerId: 101, price: '-' },
+  { id: 202, subject: 'QUALITY ASSURANCE', level: 'Level 3', trainerId: 101, price: '-' },
+  { id: 203, subject: 'FRONTEND DEVELOPMENT USING REACT JS', level: 'Level 4', trainerId: 102, price: '-' },
+  { id: 204, subject: 'MOBILE APPLICATION DEVELOPMENT USING FLUTTER', level: 'Level 5', trainerId: 102, price: '-' },
+  { id: 205, subject: 'INTRO TO COMPUTER NETWORKS', level: 'University', trainerId: 101, price: '-' },
+  { id: 206, subject: 'MATHEMATICS', level: 'Level 3', trainerId: 103, price: '-'},
+  { id: 207, subject: 'DEVELOP DATABASE ', level: 'Level 4', trainerId: 101, price: '-' },
 ];
 
 const NotesAndTrainers = () => {
