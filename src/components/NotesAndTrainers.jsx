@@ -102,7 +102,7 @@ const NotesAndTrainers = () => {
           ))}
         </tbody>
       </table>
-      <h2 className="notes-title"> Promotion Notice: Need to print and bind your documents? Enjoy our fast, reliable, and affordable printing and binding services.  </h2>
+      <h2 className="notes-title"> Need to print and bind your documents? Enjoy our fast, reliable, and affordable printing and binding services. </h2>
     </div>
   );
 };
