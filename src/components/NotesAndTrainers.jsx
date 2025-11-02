@@ -26,7 +26,7 @@ const trainingsData = [
   { id: 202, subject: 'QUALITY ASSURANCE', level: 'Level 3', trainerId: 101, price: '-' },
   { id: 203, subject: 'FRONTEND DEVELOPMENT USING REACT JS', level: 'Level 4', trainerId: 102, price: '-' },
   { id: 204, subject: 'MOBILE APPLICATION DEVELOPMENT USING FLUTTER', level: 'Level 5', trainerId: 102, price: '-' },
-  { id: 205, subject: 'INTRO TO COMPUTER NETWORKS', level: 'University', trainerId: 101, price: '-' },
+  { id: 205, subject: 'INTRO TO COMPUTER NETWORKS', level: 'A1', trainerId: 101, price: '-' },
   { id: 206, subject: 'MATHEMATICS', level: 'Level 3', trainerId: 103, price: '-'},
   { id: 207, subject: 'DEVELOP DATABASE ', level: 'Level 4', trainerId: 101, price: '-' },
 ];
