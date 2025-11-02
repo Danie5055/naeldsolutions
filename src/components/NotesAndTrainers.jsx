@@ -8,7 +8,7 @@ const notesData = [
   { id: 2, subject: 'QUALITY ASSURANCE', level: 'Level 3', price: '-' },
   { id: 3, subject: 'FRONTEND DEVELOPMENT USING REACT JS', level: 'Level 4', price: '-' },
   { id: 4, subject: 'MOBILE APPLICATION DEVELOPMENT USING FLUTTER', level: 'Level 5', price: '-' },
-  { id: 5, subject: 'INTRO TO COMPUTER NETWORKS', level: 'University', price: '-' },
+  { id: 5, subject: 'INTRO TO COMPUTER NETWORKS', level: 'A1', price: '-' },
   { id: 6, subject: 'DEVELOP DATABASE ', level: 'Level 4', price: '-' },
   { id: 7, subject: 'COMPUTER LITERACY ', level: 'Level 4', price: 'Free' },
 ];
