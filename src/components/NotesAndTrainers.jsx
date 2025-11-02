@@ -102,7 +102,8 @@ const NotesAndTrainers = () => {
           ))}
         </tbody>
       </table>
-      <h2 className="notes-title"> N.B: Reception price for any of our service is 700 Rwf </h2>
+      <h2 className="notes-title"> Promotion Notice:
+Need to print and bind your documents? Enjoy our fast, reliable, and affordable printing and binding services.  </h2>
     </div>
   );
 };
